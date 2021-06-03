@@ -1,4 +1,5 @@
 alert('welcome to Car website')
+<<<<<<< HEAD
 let password = 0101
 let p= prompt("enter your password?")
 while(p !=='0101')
@@ -9,6 +10,10 @@ while(p !=='0101')
 let car = prompt("which type of car do you like?")
 console.log(car)
 
+=======
+var car = prompt("which type of car do you like?")
+ console.log(car)
+>>>>>>> 0edf81a32ebdd8dc2c03fd9032f47f0bedba4fb3
 if (car == 'bmw') {
   document.write('<h3>' +"you are sporty man"+ '</h3>')
 }
@@ -18,6 +23,7 @@ else if( car=='kia') {
 else if (car == 'mercedes') {
   document.write('<h3>' + "you are a classic man"+ '</h3>')
 }
+<<<<<<< HEAD
 else{
   alert('please choose a car')
 }
@@ -32,3 +38,9 @@ while(x>5)
    console.log(i)
 
  }
+=======
+else {
+  alert('plese enter name of the car')  
+}
+
+>>>>>>> 0edf81a32ebdd8dc2c03fd9032f47f0bedba4fb3
